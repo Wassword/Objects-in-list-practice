@@ -13,6 +13,7 @@ public class Book {
         this.publicationYear = publicationYear;
 
     }
+
     //getters
     public String getTitle() {
         return title;
@@ -25,8 +26,10 @@ public class Book {
     public int getPublicationYear() {
         return publicationYear;
     }
+
     @Override
     public String toString() {
         return "Title: " + getTitle() + ", Pages: " + getPages() + ", Year: " + getPublicationYear();
     }
+
 }
